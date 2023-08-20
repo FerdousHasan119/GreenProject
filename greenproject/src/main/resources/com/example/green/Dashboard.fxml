@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="498.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.green.Dashboard">
+   <children>
+      <ImageView fitHeight="239.0" fitWidth="318.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="SEAGREEN" layoutX="254.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Project Green" wrappingWidth="339.3360137939453">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="donate" layoutX="609.0" layoutY="196.0" mnemonicParsing="false" onAction="#donate" prefHeight="43.0" prefWidth="157.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Donation" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="36.0" layoutY="427.0" mnemonicParsing="false" onAction="#logout" prefHeight="43.0" prefWidth="123.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="feedback" layoutX="239.0" layoutY="196.0" mnemonicParsing="false" onAction="#feedback" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Give Feedback" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="rqstPlant" layoutX="424.0" layoutY="196.0" mnemonicParsing="false" onAction="#rqstPlant" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Request Plants" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="plantlist" layoutX="239.0" layoutY="114.0" mnemonicParsing="false" onAction="#plantlist" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="View Plant list" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="notice" layoutX="239.0" layoutY="282.0" mnemonicParsing="false" onAction="#notice" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Notice" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="order" layoutX="608.0" layoutY="114.0" mnemonicParsing="false" onAction="#order" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Order Plant" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="blog" layoutX="424.0" layoutY="282.0" mnemonicParsing="false" onAction="#blog" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Read Blog" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="packagelist" layoutX="424.0" layoutY="114.0" mnemonicParsing="false" onAction="#packagelist" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="View Package list" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="suggestions" layoutX="609.0" layoutY="282.0" mnemonicParsing="false" onAction="#suggestions" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Take Suggestion" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="consult" layoutX="424.0" layoutY="362.0" mnemonicParsing="false" onAction="#consult" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Consult List" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

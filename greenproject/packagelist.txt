@@ -1,0 +1,18 @@
+Package Name:Flower Package
+Package Details:7 types of flowers cultivated on a 10*10 feet land.
+Price:5000 BDT
+
+----------------------------------------------------------------------
+
+Package Name:Fruits and Flowers Delight
+Package Details:3 types of fruit and 4 types flowers cultivated on a 
+                10*10 feet of land.
+Price:7000 BDT
+
+----------------------------------------------------------------------
+
+Package Name:Vegetable Package
+Package Details:7 types of vegetable cultivated on a 10*10 feet land.
+Price:3000 BDT
+
+----------------------------------------------------------------------

@@ -1,0 +1,40 @@
+Name: Sabuj
+Password: 1234
+Email: s@gmail.com
+Age: 22
+Phone Number: 123456
+
+
+----------------------------------------------------------
+
+
+Name: Maun
+Password: 1234
+Email: m@gmail.com
+Age: 50
+Phone Number: 05464
+
+
+----------------------------------------------------------
+
+
+Name: ferdous
+Password: 1234
+Email: ferdous@gmail.com
+Age: 22
+Phone Number: 51564
+
+
+----------------------------------------------------------
+
+
+Name: Rajib
+Password: 1234
+Email: r@gmail.com
+Age: 22
+Phone Number: 6456456
+
+
+----------------------------------------------------------
+
+

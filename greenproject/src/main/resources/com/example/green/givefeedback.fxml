@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.green.Givefeedback">
+   <children>
+      <ImageView fitHeight="180.0" fitWidth="233.0" layoutX="14.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="232.0" layoutY="92.0" prefHeight="327.0" prefWidth="494.0" style="-fx-background-color: #2E8B57;">
+         <children>
+            <Text fill="WHITE" layoutX="167.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Give feedback">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="name" layoutX="252.0" layoutY="112.0" promptText="Your name" />
+            <TextField fx:id="feedback" layoutX="253.0" layoutY="172.0" prefHeight="50.0" prefWidth="150.0" promptText="Enter feedback" />
+            <Text fill="WHITE" layoutX="177.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="177.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feedback">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="submit" layoutX="326.0" layoutY="263.0" mnemonicParsing="false" onAction="#submit" prefHeight="35.0" prefWidth="96.0" style="-fx-background-color: white; -fx-background-radius: 15;" text="Submit" textFill="SEAGREEN">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text fx:id="alert" fill="WHITE" layoutX="101.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: treansparent; -fx-text-inner-color: white;" wrappingWidth="355.4000549316406">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button fx:id="back" layoutX="29.0" layoutY="314.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: #2E8B57; -fx-background-radius: 15;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
